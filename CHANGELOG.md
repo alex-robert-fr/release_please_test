@@ -6,6 +6,16 @@ All notable changes to this project will be documented in this file.
 
 ### 🐛 Bug Fixes
 
+- Li
+
+### 📚 Documentation
+
+- Update changelog
+
+## [0.6.1] - 2024-07-08
+
+### 🐛 Bug Fixes
+
 - Lululi
 
 ### 📚 Documentation
