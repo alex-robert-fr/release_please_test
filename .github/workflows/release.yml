@@ -33,11 +33,44 @@ jobs:
           OUTPUT: CHANGELOG.md
           GITHUB_REPO: ${{ github.repository }}
 
+      - name: Upload changelog for review
+        uses: actions/upload-artifact@v2
+        with:
+          name: changelog
+          path: CHANGELOG.md
+
+    manual_approval:
+      runs-on: ubuntu-latest
+      needs: generate_changelog
+      steps:
+        - name: Wait for manual approval
+          uses: Midnighter/actions/manual-approval@v1
+          with:
+            repo-token: ${{ secrets.GITHUB_TOKEN }}
+            approval-branch: main
+            label: 'Approve changelog'
+            comment: 'Please review the changelog and approve this workflow to continue with the release process.'
+
+
+   commit_changelog:
+    runs-on: ubuntu-latest
+    needs: manual_approval
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download changelog
+        uses: actions/download-artifact@v2
+        with:
+          name: changelog
+          path: .
+
       - name: Commit changelog
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          set +e
           git add CHANGELOG.md
           git commit -m "Update changelog"
           git push https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
