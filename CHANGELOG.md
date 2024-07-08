@@ -2,7 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
-## [unreleased]
+## [0.6.3] - 2024-07-08
+
+### 🐛 Bug Fixes
+
+- Liuu
+
+### ⚙️ Miscellaneous Tasks
+
+- Update changelog
+
+## [0.6.2] - 2024-07-08
 
 ### 🐛 Bug Fixes
 
