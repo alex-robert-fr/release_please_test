@@ -1,0 +1,11 @@
+{
+  "release-type": "rust",
+  "packages": {
+    "./": {
+      "package-name": "release_please_test",
+      "component": "default",
+      "version-file": "Cargo.toml"
+    }
+  }
+}
+
