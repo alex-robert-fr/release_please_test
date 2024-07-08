@@ -6,6 +6,16 @@ All notable changes to this project will be documented in this file.
 
 ### 🚀 Features
 
+- Lululi
+
+### 📚 Documentation
+
+- Update changelog
+
+## [0.5.0] - 2024-07-08
+
+### 🚀 Features
+
 - Lululu
 
 ### 📚 Documentation
