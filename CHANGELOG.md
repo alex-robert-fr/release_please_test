@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.12.0](https://github.com/alex-robert-fr/release_please_test/compare/v0.11.0..v0.12.0) - 2024-07-08
+
+### 🚀 Features
+
+- Marc 2 - ([ffdf29c](https://github.com/alex-robert-fr/release_please_test/commit/ffdf29c369444383797f220a67e729ea3c64287c))
+- Marc 3 - ([b5b6e49](https://github.com/alex-robert-fr/release_please_test/commit/b5b6e49fb4164f563aa9312687e9e6dd80e147c6))
+- Marc 4 - ([eddb2a1](https://github.com/alex-robert-fr/release_please_test/commit/eddb2a1367b5c4e5e2b711bac18663f1f85e7b1f))
+
 ## [0.11.0](https://github.com/alex-robert-fr/release_please_test/compare/v0.10.0..v0.11.0) - 2024-07-08
 
 ### 🚀 Features
