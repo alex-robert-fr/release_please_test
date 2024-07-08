@@ -48,6 +48,7 @@ jobs:
         with:
           approvers: '["alex-robert-fr"]' # Replace with actual GitHub usernames
           minimum-approvals: 1
+          secret: ${{ secrets.GITHUB_TOKEN }}
 
   commit_changelog:
     runs-on: ubuntu-latest
