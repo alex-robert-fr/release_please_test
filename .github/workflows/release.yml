@@ -44,7 +44,7 @@ jobs:
 
   create_release:
     runs-on: ubuntu-latest
-    needs: commit_changelog
+    needs: generate_changelog
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
