@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.10.0](https://github.com/alex-robert-fr/release_please_test/compare/v0.9.0..v0.10.0) - 2024-07-08
+
+### 🚀 Features
+
+- Lssa - ([ba1f3ce](https://github.com/alex-robert-fr/release_please_test/commit/ba1f3ce4a106093add2d8157fa5528db53ba4f2c))
+- Lsssssa - ([aba12ec](https://github.com/alex-robert-fr/release_please_test/commit/aba12ec92eda11301dead24ddd07fa1b99a8a6e4))
+- Lsa - ([3ee6087](https://github.com/alex-robert-fr/release_please_test/commit/3ee6087bc9b907e0cf6ea7c6b18fef203e2df302))
+- Oulaa - ([f503593](https://github.com/alex-robert-fr/release_please_test/commit/f503593186ea0a57552f7a0f964003b53da6a7b2))
+- Oua - ([05ed52a](https://github.com/alex-robert-fr/release_please_test/commit/05ed52a0889bfcf7b4f8980f3d4703775205de4d))
+- Tt - ([d82695d](https://github.com/alex-robert-fr/release_please_test/commit/d82695d99409b89136211c343c4ae5b4eedd7516))
+
+## [0.9.0](https://github.com/alex-robert-fr/release_please_test/compare/v0.8.0..v0.9.0) - 2024-07-08
+
+### 🚀 Features
+
+- Lssa - ([128b770](https://github.com/alex-robert-fr/release_please_test/commit/128b7702001535618b555b3b6078a2e4c0c9c9ce))
+- Lssa - ([1934bd4](https://github.com/alex-robert-fr/release_please_test/commit/1934bd4efd2707310dc60816ea52e6eb8e42eca0))
+- Lssa - ([1eee0e4](https://github.com/alex-robert-fr/release_please_test/commit/1eee0e47fbb949e5af27e06337e2b8a394d0f3b3))
+
 ## [0.8.0](https://github.com/alex-robert-fr/release_please_test/compare/v0.7.2..v0.8.0) - 2024-07-08
 
 ### 🚀 Features
