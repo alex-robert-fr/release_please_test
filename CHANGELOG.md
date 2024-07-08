@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 ## [unreleased]
 
+### 📚 Documentation
+
+- Update changelog
+
 ### ⚙️ Miscellaneous Tasks
 
 - Add release please
@@ -14,5 +18,6 @@ All notable changes to this project will be documented in this file.
 - Aller 2
 - Lala
 - Test
+- Les tags
 
 
