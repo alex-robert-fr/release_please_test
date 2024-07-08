@@ -6,6 +6,16 @@ All notable changes to this project will be documented in this file.
 
 ### 🚀 Features
 
+- Lalal
+
+### 📚 Documentation
+
+- Update changelog
+
+## [0.2.0] - 2024-07-08
+
+### 🚀 Features
+
 - Tt
 
 ### 📚 Documentation
