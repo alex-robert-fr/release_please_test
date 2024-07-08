@@ -51,8 +51,7 @@ jobs:
             label: 'Approve changelog'
             comment: 'Please review the changelog and approve this workflow to continue with the release process.'
 
-
-   commit_changelog:
+  commit_changelog:
     runs-on: ubuntu-latest
     needs: manual_approval
     steps:
