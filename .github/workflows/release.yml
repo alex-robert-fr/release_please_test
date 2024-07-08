@@ -44,12 +44,9 @@ jobs:
     needs: generate_changelog
     steps:
       - name: Wait for manual approval
-        uses: Midnighter/actions/manual-approval@v1
+        uses: maneyko/manual-approval@v1.0.0
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          approval-branch: main
-          label: 'Approve changelog'
-          comment: 'Please review the changelog and approve this workflow to continue with the release process.'
+          job_name: 'Changelog Verification'
 
   commit_changelog:
     runs-on: ubuntu-latest
