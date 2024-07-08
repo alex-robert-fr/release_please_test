@@ -46,7 +46,7 @@ jobs:
       - name: Wait for manual approval
         uses: trstringer/manual-approval@v1
         with:
-          approvers: '["alex-robert-fr"]' # Replace with actual GitHub usernames
+          approvers: "alex-robert-fr"
           minimum-approvals: 1
           secret: ${{ secrets.GITHUB_TOKEN }}
 
