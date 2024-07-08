@@ -88,9 +88,13 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate latest changelog
+        run: git cliff --latest > latest_changelog.md
+
       - name: Create a GitHub release
         uses: ncipollo/release-action@v1
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ steps.tag_version.outputs.new_tag }}
           name: Release ${{ steps.tag_version.outputs.new_tag }}
-          bodyFile: CHANGELOG.md
+          bodyFile: latest_changelog.md
