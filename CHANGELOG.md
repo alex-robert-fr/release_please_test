@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.8.0](https://github.com/alex-robert-fr/release_please_test/compare/v0.7.2..v0.8.0) - 2024-07-08
+
+### 🚀 Features
+
+- La - ([cd360df](https://github.com/alex-robert-fr/release_please_test/commit/cd360df3edbd079e46ca4fc41477934ee5fbc33d))
+
 ## [0.7.2](https://github.com/alex-robert-fr/release_please_test/compare/v0.7.1..v0.7.2) - 2024-07-08
 
 ### 🐛 Bug Fixes
