@@ -26,6 +26,9 @@ jobs:
       - name: Generate a changelog
         id: changelog
         uses: orhun/git-cliff-action@v3
+        run: |
+          version=$(git cliff --bump)
+          echo "version=$version" >> $GITHUB_ENV
         with:
           config: cliff.toml
           args: --verbose --bump
