@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [0.13.0](https://github.com/alex-robert-fr/release_please_test/compare/v0.12.0..v0.13.0) - 2024-07-11
+## [0.0.0](https://github.com/alex-robert-fr/release_please_test/compare/v0.12.0..v0.0.0) - 2024-07-11
 
 ### 🚀 Features
 
