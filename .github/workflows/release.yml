@@ -81,6 +81,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install git-cliff
+        uses: taiki-e/install-action@git-cliff
+
       - name: Create and push new tag
         run: |
           git cliff --bump -o CHANGELOG.md
