@@ -33,6 +33,12 @@ jobs:
         run: |
           git cliff --bump -o CHANGELOG.md
           export TAG_VERSION=$(git cliff --bumped-version)
+          
+      - name: Upload changelog for review         
+        uses: actions/upload-artifact@v2
+        with:
+          name: changelog
+          path: CHANGELOG.md
 
   manual_approval:
     runs-on: ubuntu-latest
