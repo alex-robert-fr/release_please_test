@@ -33,7 +33,7 @@ jobs:
         run: |
           git cliff --bump -o CHANGELOG.md
           git cliff --bumped-version
-          git cliff --bumped-version >> $TAG_VERSION
+          export $TAG_VERSION=git cliff --bumped-version
           echo $TAG_VERSION
 
   manual_approval:
