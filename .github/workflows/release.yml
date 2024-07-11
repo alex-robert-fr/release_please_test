@@ -104,6 +104,6 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ steps.tag_version.outputs.new_tag }}
-          name: Release ${{ steps.tag_version.outputs.new_tag }}
+          tag: $TAG_VERSION
+          name: Release $TAG_VERSION
           bodyFile: latest_changelog.md
