@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.0](https://github.com/alex-robert-fr/release_please_test/compare/v0.0.0..v0.1.0) - 2024-07-11
+
+### 🚀 Features
+
+- Tmplala - ([6ccd5ad](https://github.com/alex-robert-fr/release_please_test/commit/6ccd5adc507025d74cbd9ec732a4749c472fd967))
+
 ## [0.0.0](https://github.com/alex-robert-fr/release_please_test/compare/v0.12.0..v0.0.0) - 2024-07-11
 
 ### 🚀 Features
