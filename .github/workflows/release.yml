@@ -28,20 +28,12 @@ jobs:
 
       - name: Generate a changelog
         id: changelog
-        run: git cliff --verbose --config cliff.toml --output CHANGELOG.md
-        uses: orhun/git-cliff-action@v3
-        with:
-          config: cliff.toml
-          args: --verbose --bump
+        run: |
+          git cliff --bump -o CHANGELOG.md
+          version=$(git cliff --bump)
+          echo "version=$version" >> $GITHUB_ENV
         env:
-          OUTPUT: CHANGELOG.md
-          GITHUB_REPO: ${{ github.repository }}
-
-      - name: Upload changelog for review
-        uses: actions/upload-artifact@v2
-        with:
-          name: changelog
-          path: CHANGELOG.md
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   manual_approval:
     runs-on: ubuntu-latest
